@@ -98,7 +98,8 @@ body {
 /* features */
 .feature-title,
 .work-title,
-.team-title {
+.team-title,
+.filter-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
