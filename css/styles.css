@@ -31,7 +31,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--logo-color);
   text-decoration: none;
 }
@@ -43,19 +42,26 @@ body {
 /* Site-nav */
 .site-nav .link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
-
   color: var(--secondary-text-color);
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.mail:hover,
+.mail:focus,
+.tel:hover,
+.tel:focus {
   color: var(--accent-color);
   cursor: pointer;
 }
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 .site-nav.list,
 .filter-list.list,
 .feature-list.list,
@@ -68,19 +74,10 @@ body {
 .mail,
 .tel {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-text-color);
-}
-
-.mail:hover,
-.mail:focus,
-.tel:hover,
-.tel:focus {
-  color: var(--accent-color);
-  cursor: pointer;
 }
 
 /* hero */
@@ -106,23 +103,14 @@ body {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
 .feature-list .title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.1;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-text-color);
-}
-
-.feature-list p {
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 
 /* team */
@@ -136,7 +124,6 @@ body {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
@@ -144,7 +131,6 @@ body {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* button */
@@ -170,9 +156,6 @@ footer {
   background-color: var(--footer-bg-color);
 }
 address {
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
   font-style: normal;
   color: var(--main-bg-color);
 }
@@ -182,7 +165,6 @@ address {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--main-bg-color);
 }
@@ -194,8 +176,6 @@ address {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  letter-spacing: 0.03em;
-
   color: var(--secondary-text-color);
 }
 
@@ -211,5 +191,4 @@ address {
 .portfolio p {
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
 }
