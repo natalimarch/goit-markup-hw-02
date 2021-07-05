@@ -67,6 +67,7 @@ body {
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: var(--primary-text-color);
 }
 
 .mail:hover,
@@ -153,3 +154,22 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+/* button */
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--main-bg-color);
+}
+
+.button.primary {
+  color: var(--main-bg-color);
+  background-color: var(--accent-color);
+}
+
+/* footer */
