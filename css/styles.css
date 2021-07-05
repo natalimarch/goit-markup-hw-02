@@ -39,3 +39,41 @@ body {
 .logo-accent {
   color: var(--accent-color);
 }
+
+/* Site-nav */
+.site-nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  color: var(--secondary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+.site-nav.list {
+  list-style: none;
+}
+
+.mail,
+.tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.mail:hover,
+.mail:focus,
+.tel:hover,
+.tel:focus {
+  color: var(--accent-color);
+  cursor: pointer;
+}
