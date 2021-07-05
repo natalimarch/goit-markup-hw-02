@@ -56,7 +56,12 @@ body {
   color: var(--accent-color);
   cursor: pointer;
 }
-.site-nav.list {
+.site-nav.list,
+.filter-list.list,
+.feature-list.list,
+.work-list.list,
+.team-list.list,
+.portfolio > li {
   list-style: none;
 }
 
@@ -114,29 +119,16 @@ body {
   color: var(--secondary-text-color);
 }
 
-.feature-list.list {
-  list-style: none;
-}
-
 .feature-list p {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
 
-/* work */
-.work-list.list {
-  list-style: none;
-}
-
 /* team */
 
 .team {
   background-color: var(--secondary-bg-color);
-}
-
-.team-list.list {
-  list-style: none;
 }
 
 .team-list .title {
@@ -193,4 +185,31 @@ address {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--main-bg-color);
+}
+
+/* portfolio page */
+
+.button.secondary {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--secondary-text-color);
+}
+
+.portfolio p {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
 }
