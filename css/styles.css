@@ -181,6 +181,12 @@ address {
   color: var(--secondary-text-color);
 }
 
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--main-bg-color);
+  background-color: var(--accent-color);
+}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
